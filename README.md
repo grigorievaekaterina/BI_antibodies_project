@@ -42,3 +42,16 @@ Our group tried other machine learning methods too. The results and code can be 
 ### Further plans
 * Try to achieve the same metrics as full data configuration using transfer-learning method with limited data.
 * Collect dataset of mutations data allowing to get the more accurate predictions.
+
+### Usage
+You can launch all notebooks yourself.
+
+For [first notebook](https://github.com/grigorievaekaterina/BI_antibodies_project/blob/main/code/representing-rf-from-the-article.ipynb), where represented results from the article can be found, please use [Kaggle](https://www.kaggle.com/).
+
+For [second notebook](https://github.com/grigorievaekaterina/BI_antibodies_project/blob/main/code/New_RF_models.ipynb), where new Random Forest models can be found, please use [Google Colab](https://colab.research.google.com/).
+
+Moreover, before launching cells be sure if [all needed libraries](https://github.com/grigorievaekaterina/BI_antibodies_project/blob/main/requirements.txt) are installed. If not, please add the next cell in the beginning of each notebook:
+
+```
+!pip install -r https://raw.githubusercontent.com/grigorievaekaterina/BI_antibodies_project/main/requirements.txt
+```
